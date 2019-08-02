@@ -97,6 +97,20 @@ body{
     }
 }
 
+@media (max-width: 375px){
+    .header{
+        height: 60px;
+    }
+
+    .logo{
+        line-height: 60px;
+    }
+
+    .logo>a>img{
+        max-height: 30px;
+    }
+}
+
 /* ----- nav ----- */
 .nav_link {
     height: 55px;
@@ -222,6 +236,12 @@ body{
     }
 }
 
+@media (max-width: 375px){
+    .banner{
+        margin-top: 60px;
+    }
+}
+
 /* ----- main ----- */
 .main{
     background-image: url(image/bg02.png);
@@ -275,7 +295,7 @@ body{
 }
 
 .title_bg {
-    min-width: 165px;
+    min-width: 210px;
     background: #111;
     padding: 6px 20px;
     align-items: center;
@@ -445,6 +465,28 @@ body{
     }
 }
 
+@media (max-width: 375px){
+    .main{
+        padding: 50px 0;
+    }
+
+    .main h2{
+        font-size: 32px;
+    }
+
+    .live{
+        margin-bottom: 30px;
+    }
+
+    .title_bg{
+        min-width: 195px;
+    }
+
+    .title_bg>h3{
+        font-size: 18px;
+    }
+}
+
 /* ----- sec3 Sport ----- */
 #sport{
     /* padding-bottom: 0; */
@@ -581,6 +623,12 @@ body{
     }
 }
 
+@media (max-width: 375px){
+    #sport{
+        padding-top: 50px;
+    }
+}
+
 /* ----- Chose ----- */
 #chose{
     padding-top: 80px;
@@ -613,6 +661,12 @@ body{
     }
 }
 
+@media (max-width: 375px){
+    #chose{
+        padding-top: 50px;
+    }
+}
+
 /* ----- Area ----- */
 .area{
     padding-top: 80px;
@@ -634,6 +688,16 @@ body{
     }
 }
 
+@media (max-width: 375px){
+    .area{
+        padding: 50px 0 15px !important;
+    }
+
+    #slider{
+        padding: 25px 0 60px !important;
+    }
+}
+
 /* ----- sec5 Video ----- */
 #video{
     padding-top: 80px;
@@ -641,14 +705,15 @@ body{
 
 .video{
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .row{
-    width: 33.3%;
+    width: 40%;
     /* max-width: 300px; */
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 20px;
 }
 
 .video_img{
@@ -721,6 +786,12 @@ a.free:hover{
     }
 }
 
+@media (max-width: 375px){
+    #video {
+        padding-top: 50px;
+    }
+}
+
 .bottom{
     background-image: url(image/bg02.png);
     background-repeat: no-repeat;
@@ -779,5 +850,11 @@ footer{
 
     .dnd{
         display: none;
+    }
+}
+
+@media (max-width: 375px){
+    .foot_nav>p{
+        margin: 0;
     }
 }
