@@ -208,12 +208,12 @@ body{
 
     .cover h1{
         font-size: 28px;
-        margin-top: 15px;
+        margin: 15px 0 0;
     }
 }
 
 @media (max-width: 575.98px){
-    .join{
+    .join, .join:hover{
         margin: 10px auto 0;
     }
 }
@@ -221,7 +221,7 @@ body{
 @media (max-width: 460px){
     .cover h2{
         font-size: 18px;
-        margin-top: 5px;
+        margin: 0;
     }
 
     .cover h1{
@@ -229,10 +229,10 @@ body{
         margin-top: 5px;
     }
 
-    .join{
+    .join, .join:hover{
         max-width: 120px;
         padding: 5px 12px;
-        margin: 3px auto 0;
+        margin: 5px auto 0;
     }
 }
 
@@ -358,6 +358,10 @@ body{
     padding-bottom: 9px;
     border-bottom: 1px #111 dashed;
     margin-bottom: 9px;
+}
+
+.nr_r>ul>li:last-child{
+    border-bottom: 1px transparent dashed;
 }
 
 .pic_inner{
