@@ -862,6 +862,12 @@ footer{
     text-decoration: none;
 }
 
+@media (max-width: 1199.98px){
+    .link{
+        margin-bottom: 151px !important;
+    }
+}
+
 @media (max-width: 991.98px){
     .link{
         display: none;
